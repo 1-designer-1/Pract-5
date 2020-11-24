@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Pract_5
 {
    
-        public class Pair
+        public class Pair // rrqr
         {   // поля
             private int _first;
             private int _second;
