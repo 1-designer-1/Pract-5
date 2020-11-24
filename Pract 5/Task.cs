@@ -42,7 +42,7 @@ namespace Pract_5
                     }
                 }
             }
-            // Метод
+            /// Метод
             public static Pair Multiply(Pair firstPair, Pair secondPair)
             {
                 return new Pair(firstPair.First * secondPair.First, firstPair.Second * secondPair.Second);

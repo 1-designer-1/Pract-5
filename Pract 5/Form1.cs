@@ -48,11 +48,10 @@ namespace Pract_5
 
             Pair pair1 = new Pair(Convert.ToInt32(textBox1.Text), Convert.ToInt32(textBox2.Text));
             Pair pair2 = new Pair(Convert.ToInt32(textBox3.Text), Convert.ToInt32(textBox4.Text));
-            Pair pair3 = new Pair(Convert.ToInt32(textBox1.Text), Convert.ToInt32(textBox2.Text));
             Pair Multiply = Pair.Multiply(pair1, pair2);
             textBox5.Text = ("(" + Multiply.First + " ; " + Multiply.Second + ")").ToString();
             Pair Multiply1 = Pair.Multiply2(pair1);
-            textBox6.Text = ("(" + Multiply1.First + " ; " + Multiply1.Second + ")").ToString();//
+            textBox6.Text = ("(" + Multiply1.First + " ; " + Multiply1.Second + ")").ToString();///
 
         }
     }
